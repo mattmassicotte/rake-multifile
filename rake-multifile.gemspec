@@ -11,7 +11,7 @@ Gem::Specification.new do |spec|
 
   spec.summary       = 'Rake file task with automatic parallel dependencies'
   spec.description   = 'Super simple gem that adds a native parallel-dependency file task to Rake'
-  spec.homepage      = "TODO: Put your gem's website or public repo URL here."
+  spec.homepage      = 'https://github.com/mattmassicotte/rake-multifile'
   spec.license       = 'MIT'
 
   # Prevent pushing this gem to RubyGems.org by setting 'allowed_push_host', or
