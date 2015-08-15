@@ -9,7 +9,7 @@ Gem::Specification.new do |spec|
   spec.authors       = ['Matt Massicotte']
   spec.email         = ['matt@massicotte.org']
 
-  spec.summary       = 'Super simple gem that adds a native parallel-dependency file task to Rake'
+  spec.summary       = 'Rake file task with automatic parallel dependencies'
   spec.description   = 'Super simple gem that adds a native parallel-dependency file task to Rake'
   spec.homepage      = "TODO: Put your gem's website or public repo URL here."
   spec.license       = 'MIT'
@@ -27,7 +27,8 @@ Gem::Specification.new do |spec|
   spec.executables   = spec.files.grep(%r{^exe/}) { |f| File.basename(f) }
   spec.require_paths = ['lib']
 
+  spec.add_runtime_dependency 'rake', '~> 10.0'
+
   spec.add_development_dependency 'bundler', '~> 1.10'
-  spec.add_development_dependency 'rake', '~> 10.0'
   spec.add_development_dependency 'minitest'
 end

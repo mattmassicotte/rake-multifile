@@ -1,4 +1,4 @@
-module Rake
+module RakeMultifile
   class MultiFileTask < Rake::FileTask
     private
     def invoke_prerequisites(task_args, invocation_chain)
