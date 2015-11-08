@@ -1,5 +1,7 @@
 # rake-multi-file
 
+[![Build Status](https://travis-ci.org/mattmassicotte/rake-multifile.svg?branch=master)](https://travis-ci.org/mattmassicotte/rake-multifile)
+
 Really simple gem that adds a new type of task to Rake. It is a combination of multitask and file: a file task that performs all of its dependencies in parallel automatically.
 
 ## Development
